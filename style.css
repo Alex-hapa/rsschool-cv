@@ -27,8 +27,8 @@ input, textarea, button{
 html,body {
     height: 100%;
     line-height: 1;
-    font-size: 14px;
-    color: #fff;
+    font-size: 40px;
+    color: rgb(14, 13, 13);
     font-family: 'Lucida', sans-serif;
 }
 
@@ -45,4 +45,27 @@ html,body {
     max-width: 1020px;
     margin: 0 auto;    
     box-sizing: border-box;
+}
+
+.i {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+}
+
+.myphoto {
+    display: flex;
+    height: 400px; 
+    width: 250px;
+}
+
+.h2 {
+    font-size: 32px;
+}
+
+.h3 {
+    font-size: 24px;
 }
